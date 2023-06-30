@@ -16,7 +16,7 @@ class Toy(models.Model):
         default=''
     )
     toy_category = models.CharField(
-        max_length=200,
+        max_length=250,
         blank=False,
         default=''
     )
